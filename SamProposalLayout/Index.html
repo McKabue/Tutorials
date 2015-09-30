@@ -4,6 +4,7 @@
     <title></title>
     <link href="../Content/font-awesome.css" rel="stylesheet" />
     <link href="../Content/bootstrapthemes/United.css" rel="stylesheet" />
+    <link href="../Scripts/summernote/summernote.css" rel="stylesheet" />
     <link href="samStyles.css" rel="stylesheet" />
 </head>
 <body>
@@ -75,9 +76,9 @@
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="active"><a href="#new-proposal-main-details" aria-controls="home" role="tab" data-toggle="tab">Main Details</a></li>
-                            <li ><a href="#new-proposal-introduction" aria-controls="profile" role="tab" data-toggle="tab">Introduction</a></li>
-                            <li ><a href="#new-proposal-literature-review" aria-controls="messages" role="tab" data-toggle="tab">Literature review</a></li>
-                            <li ><a href="#new-proposal-methodology" aria-controls="settings" role="tab" data-toggle="tab">Methodology</a></li>
+                            <li><a href="#new-proposal-introduction" aria-controls="profile" role="tab" data-toggle="tab">Introduction</a></li>
+                            <li><a href="#new-proposal-literature-review" aria-controls="messages" role="tab" data-toggle="tab">Literature review</a></li>
+                            <li><a href="#new-proposal-methodology" aria-controls="settings" role="tab" data-toggle="tab">Methodology</a></li>
                         </ul>
 
                         <!-- Tab panes -->
@@ -85,14 +86,29 @@
                             <div role="tabpanel" class="tab-pane active" id="new-proposal-main-details">
                                 <p>new-proposal-main-details</p>
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="new-proposal-introduction">
-                                <p>new-proposal-introduction</p>
+                            <div role="tabpanel" class="tab-pane row" id="new-proposal-introduction">
+                                <div class="col-md-6" style="padding-top:10px;">
+                                    <form class="form-horizontal">
+                                        <div class="summernote">Hello Summernote</div>
+                                    </form>
+                                </div>
+
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="new-proposal-literature-review">
+                            <div role="tabpanel" class="tab-pane row" id="new-proposal-literature-review">
                                 <p>new-proposal-literature-review</p>
+                                <div class="col-md-6" style="padding-top:10px;">
+                                    <form class="form-horizontal">
+                                        <div class="summernote">Hello Summernote</div>
+                                    </form>
+                                </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="new-proposal-methodology">
+                            <div role="tabpanel" class="tab-pane row" id="new-proposal-methodology">
                                 <p>new-proposal-methodology</p>
+                                <div class="col-md-6" style="padding-top:10px;">
+                                    <form class="form-horizontal">
+                                        <div class="summernote">Hello Summernote</div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -118,6 +134,7 @@
 
     <script src="../Scripts/jquery-2.1.4.js"></script>
     <script src="../Scripts/bootstrap.js"></script>
+    <script src="../Scripts/summernote/summernote.js"></script>
     <script src="samScript.js"></script>
 </body>
 </html>
